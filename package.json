@@ -1,0 +1,31 @@
+{
+  "name": "svg-icon-test",
+  "version": "1.0.0",
+  "description": "test for using svg icon is effective.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next -p 4000",
+    "build": "next build && next export"
+  },
+  "author": "walter",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^16.9.36",
+    "@types/react-dom": "^16.9.8",
+    "dotenv": "^8.2.0",
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "reat": "0.0.1-security",
+    "typescript": "^3.9.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "@svgr/webpack": "^5.4.0",
+    "@types/node": "^14.0.13",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

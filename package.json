@@ -6,8 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next -p 4000",
-    "build": "next build && next export"
+    "build": "next build"
   },
+  "sideEffects": [
+    "./src/components/icon2/*",
+    "./src/components/icon1/*"
+  ],
   "author": "walter",
   "license": "ISC",
   "dependencies": {
@@ -26,6 +30,7 @@
     "@babel/preset-react": "^7.10.1",
     "@svgr/webpack": "^5.4.0",
     "@types/node": "^14.0.13",
+    "babel-plugin-import": "^1.13.0",
     "webpack-dev-server": "^3.11.0"
   }
 }
